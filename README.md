@@ -16,5 +16,5 @@ $(__git_ps1)
 ```
 Und das folgende ausführen:
 ```bash
-curl -L https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh > ~/.zshrc
+curl -L https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh >> ~/.zshrc
 ```
