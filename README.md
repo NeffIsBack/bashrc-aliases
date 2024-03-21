@@ -9,3 +9,8 @@ alias gp='git push'
 alias gss='git status -s'
 alias gcb='git checkout -'
 ```
+
+Für branch in prompt genau vor `\n` einfügen:
+```bash
+$(__git_ps1)
+```
