@@ -1,13 +1,13 @@
 # Bash aliases for copy&pasting into new environments:
 
 ```bash
-alias gapa='git add --patch'
-alias gaa='git add --all'
-alias gcmsg='git commit -m'
-alias gl='git pull'
-alias gp='git push'
-alias gss='git status -s'
-alias gcb='git checkout -'
+alias gapa="git add --patch"
+alias gaa="git add --all"
+alias gcmsg="git commit -m"
+alias gl="git pull"
+alias gp="git push"
+alias gss="git status -s"
+alias gcb="git checkout - "
 ```
 
 Für branch in prompt genau vor `\n` einfügen:
