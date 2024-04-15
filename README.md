@@ -10,6 +10,9 @@ alias gss="git status -s"
 alias gcb="git checkout - "' >> ~/.zshrc
 curl -L https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh >> ~/.zshrc
 sed -i 's/\\n└─/ \$\(__git_ps1\)\\n└─/g' ~/.zshrc
+#  Install and link bat to cat
+sudo apt install bat
+sudo ln -s /usr/bin/batcat /usr/local/bin/cat
 ```
 
 Git aliases:
