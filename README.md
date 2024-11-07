@@ -26,11 +26,11 @@ alias gss="git status -s"
 alias gcb="git checkout - "
 ```
 
-Für branch in prompt genau vor `\n` einfügen:
+For displaying branches put this exactly before `\n` in the zshrc file:
 ```bash
 $(__git_ps1)
 ```
-Und das folgende ausführen:
+And execute the following for git completion:
 ```bash
 curl -L https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh >> ~/.zshrc
 ```
