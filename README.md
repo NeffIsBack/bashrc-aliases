@@ -7,7 +7,10 @@ alias gcmsg="git commit -m"
 alias gl="git pull"
 alias gp="git push"
 alias gss="git status -s"
-alias gcb="git checkout - "' >> ~/.zshrc
+alias gcb="git checkout - "
+
+alias gs="git stash"
+alias gsa="git stash apply"' >> ~/.zshrc
 curl -L https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh >> ~/.zshrc
 sed -i 's/\\n└─/ \$\(__git_ps1\)\\n└─/g' ~/.zshrc
 #  Install and link bat to cat
@@ -24,6 +27,9 @@ alias gl="git pull"
 alias gp="git push"
 alias gss="git status -s"
 alias gcb="git checkout - "
+
+alias gs="git stash"
+alias gsa="git stash apply"
 ```
 
 For displaying branches put this exactly before `\n` in the zshrc file:
